@@ -69,4 +69,9 @@ body {
     left: 50%;
     height: 4.0625rem;
     width: 0.1875rem;
+    transform-origin: bottom center;
+}
+
+.hand.hour {
+    transform: translate(-50%, -100%) rotate(0deg);
 }
