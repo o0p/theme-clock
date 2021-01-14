@@ -80,3 +80,9 @@ body {
     transform: translate(-50%, -100%) rotate(0deg);
     height: 6.25rem;
 }
+
+.hand.second {
+    transform: translate(-50%, -100%) rotate(0deg);
+    height: 6.25rem;
+    background-color: #e74c3c;
+}
