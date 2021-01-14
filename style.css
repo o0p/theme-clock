@@ -33,3 +33,8 @@ body {
     overflow: hidden;
     margin: 0;
 }
+
+.toggle {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+} 
