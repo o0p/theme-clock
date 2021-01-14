@@ -35,6 +35,22 @@ body {
 }
 
 .toggle {
+    cursor: pointer;
     background-color: var(--primary-color);
     color: var(--secondary-color);
-} 
+    border-radius: 0.25rem;
+    padding: 0.5rem 0.75rem;
+    position: absolute;
+    top: 6.25rem;
+}
+
+.toggle:focus {
+    outline: none;
+}
+
+.clock-container {
+    display: flexbox;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
