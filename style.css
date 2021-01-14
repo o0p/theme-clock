@@ -75,3 +75,8 @@ body {
 .hand.hour {
     transform: translate(-50%, -100%) rotate(0deg);
 }
+
+.hand.minute {
+    transform: translate(-50%, -100%) rotate(0deg);
+    height: 6.25rem;
+}
