@@ -69,6 +69,7 @@ body {
     height: 4.0625rem;
     width: 0.1875rem;
     transform-origin: bottom center;
+    transition: all 996ms linear;
 }
 
 .hand.hour {
