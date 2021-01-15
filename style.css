@@ -97,6 +97,7 @@ body {
     border-radius: 50%;
     
 }
+
 .center-point::after {
     content: '';
     background-color: var(--primary-color);
@@ -109,6 +110,7 @@ body {
     border-radius: 50%;
 
 }
+
 .center-point::after {
     content: '';
     background-color: var(--primary-color);
@@ -119,5 +121,9 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
-
 }
+
+.time {
+    font-size: 60px;
+}
+
