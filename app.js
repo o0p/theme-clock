@@ -15,6 +15,18 @@ toggle.addEventListener('click', function(event) {
         event.target.innerHTML = 'Dark mode';
     } else {
         html.classList.add('dark');
-        event.target.innerHTML = 'Dark mode';
+        event.target.innerHTML = 'Light mode';
     }
 });
+
+function setTime() {
+    const time = new Date();
+    const month = time.getMonth();
+    const day = time.getDay();
+    const hours = time.getHours();
+    const  hoursForClock = hours % 12;
+    const minutes = time.getMinutes();
+    const seconds = time.getSeconds();
+
+
+}
