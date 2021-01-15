@@ -88,8 +88,8 @@ body {
 
 .center-point {
     background-color: #e74c3c;
-    width: 10px;
-    height: 10px;
+    width: 0.625rem;
+    height: 0.625rem;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -98,3 +98,52 @@ body {
     
 }
 
+.center-point::after {
+    content: '';
+    background-color: var(--primary-color);
+    width: 0.625rem;
+    height: 0.625rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+
+}
+
+.center-point::after {
+    content: '';
+    background-color: var(--primary-color);
+    width: 0.3125rem;
+    height: 0.3125rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+.time {
+    font-size: 3.75rem;
+}
+
+.date {
+    color: #aaa;
+    font-size: 0.875rem;
+    letter-spacing: 0.0187rem;
+    text-transform: uppercase;
+}
+
+.date .circle {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 50%;
+    height: 1.125rem;
+    width: 1.125rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.125rem;
+    transition: all 0.5s ease-in;
+    font-size: 0.75rem;
+}
